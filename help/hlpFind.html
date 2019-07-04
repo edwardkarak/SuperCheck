@@ -1,0 +1,87 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>SuperCheck Help</title>
+</head>
+<body>
+	<h1 id="titl">Finding Transactions</h1>
+	<div id="container">
+	<div id="left">
+		<ul>
+			<li><a href="hlpAdd.html">Adding Transactions</a></li>
+			<li><a href="hlpEdit.html">Editing Transactions</a></li>
+			<li><a href="hlpIntro.html">Introduction</a></li>
+			<li><a href="hlpHotkey.html">Keyboard Hotkeys</a></li>
+			<li><a href="hlpRem.html">Removing Transactions</a></li>
+			<li><a href="hlpCpyPst.html">Cut, Copy and Paste</a></li>
+			<li><a href="hlpFileops.html">File Operations</a></li>
+			<li><a href="hlpOpendlg.html">The Open Dialog</a></li>
+			<li><a href="hlpConfigdlg.html">The Settings Dialog</a></li>
+			<li><a href="hlpSB.html">Status Bar Overview</a></li>
+			<li><a href="hlpPasswd.html">Password-Protection</a></li>
+			<li><a href="hlpMenu.html">Menu Overview</a></li>
+			<li><a href="hlpFAQ.html">FAQ</a></li>
+			<li><a href="hlpFind.html" class="sel">Finding Transactions</a></li>
+			<li><a href="hlpCompat.html">Free Edition Compatability</a></li>
+		<ul>
+	</div>
+	<div id="main">
+		<p>
+			At one point, one will accumulate great amounts of transactions, and it will become increasingly
+			difficult to find the transaction you need. For this exists the "Find" feature, which can find
+			transaction(s) based on one of the following columns:
+		</p>
+		<ul>
+			<li>Description</li>
+			<li>Category</li>
+		</ul>
+		<p>
+			To begin searching, go to Edit->Find, and then select the column you want to search by. When you
+			do so, a Find Dialog will appear, similar to this:
+		</p>
+		**screenshot**
+		<table>
+			<tr>
+				<th>Component</th>
+				<th>Explanation</th>
+			</tr>
+			<tr>
+				<td>Find what: </td>
+				<td>
+					In this box, enter the search term. So if you need to find all transactions whose
+					category contains "Foot", type "Foot" in this box.
+				</td>
+			</tr>
+			<tr>
+				<td>Match case</td>
+				<td>
+					When this box is checked, then SuperCheck will perform a case-sensitive search. So "Foot"
+					will bring up "<b>F</b>oot" and "<b>F</b>ootwear", but not "<b>f</b>oot", nor "<b>f</b>ootwear".
+					(Notice the emphasis). By default, this box is checked.
+				</td>
+			</tr>
+			<tr>
+				<td>Find Next</td>
+				<td>
+					When this button is pressed, the next transaction that matches the search criteria is selected, in gray.
+					Keep pressing "Find Next" to find the next transaction. You will be notified if no more transactions
+					match. This button is disabled (grayed out) until you type in something in the "Find what: " field.
+				</td>
+			</tr>
+			<tr>
+				<td>Cancel</td>
+				<td>
+					Cancels the search operation. You can achieve this same effect by pressing the red "X" in the upper right corner.
+				</td>
+			</tr>
+			<tr>
+				<td>Help</td>
+				<td>
+					Shows this help page.
+				</td>
+			</tr>
+		</table>
+	</div>
+	</div>
+</body>
+</html>

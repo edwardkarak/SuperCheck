@@ -1,0 +1,104 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>SuperCheck Help</title>
+</head>
+<body>
+	<h1 id="titl">File Operations</h1>
+	<div id="container">
+	<div id="left">
+		<ul>
+			<li><a href="hlpAdd.html">Adding Transactions</a></li>
+			<li><a href="hlpEdit.html">Editing Transactions</a></li>
+			<li><a href="hlpIntro.html">Introduction</a></li>
+			<li><a href="hlpHotkey.html">Keyboard Hotkeys</a></li>
+			<li><a href="hlpRem.html">Removing Transactions</a></li>
+			<li><a href="hlpCpyPst.html">Cut, Copy and Paste</a></li>
+			<li><a href="hlpFileops.html" class="sel">File Operations</a></li>
+			<li><a href="hlpOpendlg.html">The Open Dialog</a></li>
+			<li><a href="hlpConfigdlg.html">The Settings Dialog</a></li>
+			<li><a href="hlpSB.html">Status Bar Overview</a></li>
+			<li><a href="hlpPasswd.html">Password-Protection</a></li>
+			<li><a href="hlpMenu.html">Menu Overview</a></li>
+			<li><a href="hlpFAQ.html">FAQ</a></li>
+			<li><a href="hlpFind.html">Finding Transactions</a></li>
+			<li><a href="hlpCompat.html">Free Edition Compatability</a></li>
+
+		<ul>
+	</div>
+	<div id="main">
+		<p>
+			When you first open SuperCheck, the first thing one will see is a new, blank file initially called "Untitled". 
+			This is analogous to opening Microsoft Word, and seeing a new document called "Document1". You can immediately 
+			get to work.
+		</p>
+		<h2>Save As</h2>
+		<p>
+			When you are done working with "Untitled", and choose to Save it, a box will appear, asking for a new name for the
+			file. For example, if this is a savings account file, a good name would be "savings". When you are done press "OK". The next time you
+			open SuperCheck, you will see a dialog box appear, with a list of different SuperCheck files. Select one, and then
+			press "Open". The file will be opened and the main window will show the file's contents.
+		</p>
+		
+		<h2 id="jmpSave">Save</h2>
+		<p>
+			When you need to save changes, and the file is not "Untitled", then when you press Save, no box will appear. This is
+			because you have already chosen a name for the file, and it already exists. The only thing that will happen is the
+			status bar's first section will say "Saved", and the changes will be saved.
+		</p>
+		<p>
+			SuperCheck also has an autosave feature, which will save changes to the file every five minutes, by default. You can change
+			this interval in File->Settings->Preferences tab. Autosave will not save if the file
+			is Untitled, since the file does not even exist at that point.
+		</p>
+		
+		<h2 id="jmpNew">New</h2>
+		<p>
+			To create a new file, press the New button in the toolbar (white paper icon), go to File->New, or press the keyboard hotkey 
+			CTRL + N. If the current file has changes that need to be saved, SuperCheck will ask if you want to save these changes 
+			before creating the new, blank file. The new file's name is Untitled. If the current file is Untitled, the "New" button
+			will be grayed out. To enable the "New" button, you need to save the Untitled file first.
+		</p>
+		
+		<h2 id ="jmpOpen">Open</h2>
+		<p>
+			To open a file, press the Open button in the toolbar (manilla folder icon), go to File->Open, or press CTRL + O.
+			If the current file has changes that need to be saved, SuperCheck will ask if you want to save these changes.
+		</p>
+		<p>
+			Then, an "Open" dialog will appear, which contains a list of files you may open. Click on the file, and press "Open".
+			The file currently open will close, to allow the file you selected to open. You may not open a file that is open
+			elsewhere. To cancel opening, press the "X" button in the upper right corner. 
+		</p>
+		
+		<h2 id="jmpRenam">Renaming</h2>
+		<p>
+			You can rename a file, even when it is open in SuperCheck. To rename a file:
+		</p>
+		<ul>
+			<li>Press F2</li>
+			<li>Select "Rename this account" from the "File" menu</li>
+		</ul>
+		<p>
+			When you do one of the above, a window will appear, asking for the new name. Do so, press OK, and the file will be renamed.
+			No data will be lost and the title bar text will change.
+		</p>
+		<p>
+			Note that you may not rename when the file is untitled. In fact, "Rename" in the "File" menu will be disabled. This is because
+			the file does not even exist on the hard drive yet.
+		</p>
+		
+		<h2>Removing</h2>
+		<p>
+			You can remove a file, even when it is open in SuperCheck. To remove a file, select "Remove this account" from the "File" menu.
+		</p>
+		
+		<h2 id="jmpExportExcel">Export to Excel</h2>
+		<p>
+			You can export a SuperCheck account into Excel (xls). To do this, select "Export to Excel" from the "File" menu. A message box
+			will appear. Press "OK" to open the Excel file now. Press Cancel to not open the Excel file now.
+		</p>
+	</div>
+	</div>
+</body>
+</html>

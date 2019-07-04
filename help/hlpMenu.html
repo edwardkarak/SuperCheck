@@ -1,0 +1,236 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>SuperCheck Help</title>
+</head>
+<body>
+	<h1 id="titl">Menus Overview</h1>
+	<div id="container">
+	<div id="left">
+		<ul>
+			<li><a href="hlpAdd.html">Adding Transactions</a></li>
+			<li><a href="hlpEdit.html">Editing Transactions</a></li>
+			<li><a href="hlpIntro.html">Introduction</a></li>
+			<li><a href="hlpHotkey.html">Keyboard Hotkeys</a></li>
+			<li><a href="hlpRem.html">Removing Transactions</a></li>
+			<li><a href="hlpCpyPst.html">Cut, Copy and Paste</a></li>
+			<li><a href="hlpFileops.html">File Operations</a></li>
+			<li><a href="hlpOpendlg.html">The Open Dialog</a></li>
+			<li><a href="hlpConfigdlg.html">The Settings Dialog</a></li>
+			<li><a href="hlpSB.html">Status Bar Overview</a></li>
+			<li><a href="hlpPasswd.html">Password-Protection</a></li>
+			<li><a href="hlpMenu.html" class="sel">Menu Overview</a></li>
+			<li><a href="hlpFAQ.html">FAQ</a></li>
+			<li><a href="hlpFind.html">Finding Transactions</a></li>
+			<li><a href="hlpCompat.html">Free Edition Compatability</a></li>
+
+		<ul>
+	</div>
+	<div id="main">
+		<table>
+			<tr>
+				<td width="15%"><a href="hlpMenu.html#sysm">System Menu</a></td>
+				<td width="70%"><img src="sysmnu.png" /></td>
+			</tr>
+			<tr>
+				<td><a href="hlpMenu.html#filem">File Menu</a></td>
+				<td><img src="filemnu.png" /></td>
+			</tr>
+			<tr>
+				<td><a href="hlpMenu.html#editm">Edit Menu</a></td>
+				<td><img src="editmnu.png" /><img src="findby.png" /></td>
+			</tr>
+			<tr>
+				<td><A href="hlpMenu.html#hlpm">Help Menu</a></td>
+				<td><img src="hlpmnu.png" /></td>
+			</tr>
+		</table>
+		<h2 id="sysm">System Menu</h2>
+		<p>
+			The system menu is one of the less obvious menus. In order to view the system menu, click on
+			the icon in the titlebar, or right-click on the titlebar. The system menu will appear.
+		</p>
+		<dl>
+			<dt>Restore</dt>
+			<dd>Restores the window to its original size. Only enabled when window is maximized.</dd>
+			
+			<dt>Move</dt><dd>Moves the window.</dd>
+			<dt>Size</dt><dd>Resizes the window.</dd>
+			
+			<dt>Minimize</dt>
+			<dd>
+				Minimizes the window, so that it is now just an entry in the taskbar. To reopen the
+				window, simply click its entry in the taskbar. (usually the bottom of your screen).
+			</dd>
+			
+			<dt>Maximize</dt>
+			<dd>
+				Makes the window take up the entire screen (except for the titlebar). When the window
+				is maximized, the "Restore" item is enabled, which will bring the window to the size
+				it was before it was maximized.
+			</dd>
+			
+			<dt>Close</dt>
+			<dd>
+				Closes SuperCheck. If you have changes to be saved, you will be asked if you want to
+				save them. You can press ALT + F4 to trigger this.
+			</dd>
+			
+			<dt>Fullscreen (F11)</dt>
+			<dd>
+				Makes the SuperCheck window occupy the entire screen. To exit from fullscreen mode press F11.
+			</dd>
+			
+			<dt>Cascade Windows (F6)</dt>
+			<dd>
+				Cascades all SuperCheck windows, so they will look like this:<br>
+				<img src="cascade.gif" title="Credits to coolnerds.com" /><br>
+				You can also use F6 to trigger this.
+			</dd>
+			
+			<dt>Tile Windows</dt>
+			<dd>
+				Tiles all SuperCheck windows, so they will look like this:<br>
+				<img 
+	src="tiled.jpg"
+	title="Credits to howtogeek.com" width="520" height="240"/>
+			</dd>
+			
+			<dt id="jmpabt">About</dt>
+			<dd>
+				Shows the About dialog, which shows the creator, year created, and other information about SuperCheck.
+			</dd>
+		</dl>
+		
+		<h2 id="filem">File Menu</h2>
+		<dl>
+			<dt>Save (CTRL + S)</dt>
+			<dd>
+				Saves any changes to the file. See <a href="hlpFileops.html#jmpSave">Saving</a>
+				for more information.
+			</dd>
+			
+			<dt>Open (CTRL + O)</dt>
+			<dd>
+				Opens a SuperCheck file. See <a href="hlpFileops.html#jmpOpen">Opening</a>
+				for more information.
+			</dd>
+			
+			<dt>New (CTRL + N)</dt>
+			<dd>
+				Creates a new SuperCheck file. See <a href="hlpFileops.html#jmpNew">New File</a>.
+			</dd>
+			
+			<dt>Rename this account (F2)</dt>
+			<dd>
+				Renames this account to a different name. See 
+				<a href="hlpFileops.html#jmpRenam">Renaming</a>.
+			</dd>
+			
+			<dt>Remove this Account</dt>
+			<dd>
+				Removes this account from the hard disk. 
+			</dd>
+			
+			<dt>Settings</dt>
+			<dd>
+				Shows the settings dialog, which allows you to configure preferences, default column sizes, and more.
+				See <a href="hlpConfigdlg.html">The Settings Dialog</a> for a tutorial of the settings dialog.
+			</dd>
+			
+			<dt>Export to Excel</dt>
+			<dd>
+				Exports the currently open file into an Excel file named <kbd>excelExprt.xls</kbd>. It is located in the folder
+				for your user.
+			</dd>
+			
+			<dt>Password-Protect</dt>
+			<dd>
+				Shows a dialog that allows you to set, change, or remove the password for the currently open file.
+				See <a href="hlpPasswd.html">Password-Protection</a> for more information.
+			</dd>
+			
+			<dt>Exit (ALT+F4)</dt>
+			<dd>
+				Closes SuperCheck.
+			</dd>
+		</dl>
+		
+		<h2 id="editm">Edit Menu</h2>
+		<dl>
+			<dt>Cut (CTRL + X)</dt>
+			<dd>
+				Removes the currently selected transaction, and copies it into the clipboard.  See 
+				<a href="hlpCpyPst.html#cut">Cutting</a> for more information.
+			</dd>
+			<dt>Copy (CTRL + C)</dt>
+			<dd>
+				Copies the currently selected transaction into the clipboard.  See 
+				<a href="hlpCpyPst.html#cpy">Copying</a> for more information.
+			</dd>
+			
+			<dt>Paste (CTRL + V)</dt>
+			<dd>
+				Appends the transaction in the clipboard to the table of transactions. If the
+				clipboard does not contain valid SuperCheck data, nothing will happen. See 
+				<a href="hlpCpyPst.html#pst">Pasting</a> for more information.
+			</dd>
+			
+			<dt>New Withdrawal (CTRL + W)</dt>
+			<dd>
+				Shows the New Withdrawal dialog, and allows you to create a new
+				transaction. See <a href="hlpAdd.html">Adding Transactions</a>
+				for more information.
+			</dd>
+			
+			<dt>New Deposit (CTRL + D)</dt>
+			<dd>
+				Shows the New Deposit dialog, and allows you to create a new transaction.
+				See <a href="hlpAdd.html">Adding Transactions</a> for more information.
+			</dd>
+			
+			<dt>Edit Transaction (CTRL + E)</dt>
+			<dd>
+				Edits the currently selected transaction. See <a href="hlpEdit.html">Editing Transactions</a>
+				for more information.
+			</dd>
+			
+			<dt>Remove Transaction (DEL)</dt>
+			<dd>
+				Removes the currently selected transaction. See <a href="hlpRem.html">Removing Transations</a>
+				for more information.
+			</dd>
+			
+			<dt>Negate Transaction</dt>
+			<dd>
+				If the currently selected transaction is a deposit, then the transaction becomes a withdrawal.
+				Otherwise, it becomes a deposit. In other words, the currently selected transaction is 
+				reversed.
+			</dd>
+			
+			<dt>Go to...</dt>
+			<dd>
+				Allows you to jump to a specific transaction position.
+			</dd>
+			
+			<dt>Find-> By Description</dt>
+			<dd>Shows a Find Dialog, which can be used to find all transaction descriptions that match a specified 
+			input. See <a href="hlpFind.html">Finding Transactions</a> for more details.</dd>
+			
+			<dt>Find ->By Category</dt>
+			<dd>Shows a Find Dialog, which can be used to find all transaction categories that match a specified 
+			input. See <a href="hlpFind.html">Finding Transactions</a> for more details.</dd>
+		</dl>
+		
+		<h2 id="hlpm">Help Menu</h2>
+		<dl>
+			<dt>About</dt>
+			<dd>See <a href="hlpMenu.html#jmpabt">About</a> for details.</dd>
+			
+			<dt>Help Topics(F1)</dt>
+			<dd>Shows this help website.</dd>
+		</dl>
+	</div>
+	</div>
+</body>
+</html>

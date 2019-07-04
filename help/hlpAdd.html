@@ -1,0 +1,164 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>SuperCheck Help</title>
+</head>
+<body>
+	<h1 id="titl">Adding a New Transaction</h1>
+	<div id="container">
+	<div id="left">
+		<ul>
+			<li><a href="hlpAdd.html" class="sel">Adding Transactions</a></li>
+			<li><a href="hlpEdit.html">Editing Transactions</a></li>
+			<li><a href="hlpIntro.html">Introduction</a></li>
+			<li><a href="hlpHotkey.html">Keyboard Hotkeys</a></li>
+			<li><a href="hlpRem.html">Removing Transactions</a></li>
+			<li><a href="hlpCpyPst.html">Cut, Copy and Paste</a></li>
+			<li><a href="hlpFileops.html">File Operations</a></li>
+			<li><a href="hlpOpendlg.html">The Open Dialog</a></li>
+			<li><a href="hlpConfigdlg.html">The Settings Dialog</a></li>
+			<li><a href="hlpSB.html">Status Bar Overview</a></li>
+			<li><a href="hlpPasswd.html">Password-Protection</a></li>
+			<li><a href="hlpMenu.html">Menu Overview</a></li>
+			<li><a href="hlpFAQ.html">FAQ</a></li>
+			<li><a href="hlpFind.html">Finding Transactions</a></li>
+			<li><a href="hlpCompat.html">Free Edition Compatability</a></li>
+
+		<ul>
+	</div>
+	<!--Add FAQ section-->
+	<div id="main">
+		<p>
+			You can add either deposits or withdrawals. Deposits are profits, or any other gains. Withdrawals are expenses, or other losses.
+			Once you have created the transaction, it is recommended that you save your changes, either by pressing CTRL + S, or the Save icon in the
+			toolbar. (Unless you have made mistakes).
+		</p>
+		<h2>Deposits</h2>
+		
+		<p>To create a new deposit, you can:</p>
+		<ul>
+			<li>Click the "New Deposit" button from the drop-down menu in the toolbar</li>
+			<li>Click "New Deposit" in the "Edit" menu</li>
+			<li>Right-click the empty white space and click "New Deposit" in the context menu that appears</li>
+			or
+			<li>Press the keyboard hotkey CTRL + D</li>
+		</ul>
+		
+		<p>
+		When you do any of the above, you should see a dialog like this:
+		</p>
+		<center><img src="newxactiondlg.png" style="margin-bottom: 20px;"/></center>
+		
+		<table width = "50%" border = "1">
+			<tr>
+				<th>Component</th><th>Explanation</th>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>
+					Here goes the description of the transaction. For example, if you bought 10 books, 
+					you could write "10 books" in this field.<br> Note that the maximum amount of characters 
+					in this field is 32.
+				</td>
+			</tr>
+			<tr>
+				<td>Category</td>
+				<td>
+					Into this drop down list, you can type a category, which is useful for orginization. For example, 
+					if you got a paycheck, you could use the pre-defined "Salary" category, or make your own.
+				</td>
+			</tr>
+			<tr>
+				<td>Amount</td>
+				<td>
+					This is the value of the transaction. If you lost $100.86, you could type 100.86 into the first box. When you press the decimal point, the other box
+					now recieves the rest of the keyboard input. Thus, the first box would have "100" and the second would have "86". 
+				</td>
+			</tr>
+			<div id ="jmpQty"><tr>
+				<td>Qty...</td>
+				<td>
+					When this button is pressed, a prompt will be shown asking you to enter a unit price, and quantity. For example, if you bought 10 chocolate bars for
+					1.25 each, write "1.25" in the Amount field, and in the Quantity field, write "10".  When you press OK, the "Amount" field in the "New Deposit" dialog will
+					say 12.50 (1.25 x 10).
+				</td>
+			</tr></div>
+			<tr>
+				<td>Date</td>
+				<td>
+					This is where you select the date when this transaction occurred. By default it contains today. To change the date, press the little arrow on the right.
+					A month calendar appears, on which you can click on a date.
+				</td>
+			</tr>
+			<tr>
+				<td>Ok and New</td>
+				<td>
+					Creates this deposit, but then shows this same dialog again. This is convenient if you need to add several deposits at once.
+				</td>
+			</tr>
+			<tr>
+				<td>Cancel</td>
+				<td>Cancels this operation. No changes will be made, and the deposit will not be created</td>
+			</tr>
+			<tr>	
+				<td>OK</td>
+				<td>Confirms that you want to create this deposit. It will be appended to the table</td>
+			</tr>
+		</table>
+		
+		<h2>Withdrawals</h2>
+		<p>
+			Withdrawals work in exactly the same as deposits, so see the "Deposits" section.
+		</p>
+		
+		<h2>Category Meanings</h2>
+		<dl>
+			<dt>Food</dt>
+			<dd>
+				This category is intended for any food purchases. For example, buying a loaf
+				of bread should use this category
+			</dd>
+			
+			<dt>Salary</dt>
+			<dd>
+				This category is intended for any incomes from your job, like your yearly salary.
+			</dd>
+			
+			<dt>Bills</dt>
+			<dd>
+				This category is intended for any bills you pay, like your monthly cable bills.
+			</dd>
+			
+			<dt>Recreation</dt>
+			<dd>
+				This category is intended for any recreational spendings, like parties or games.
+			</dd>
+			
+			<dt>Car</dt>
+			<dd>
+				This category is intended for any car spendings, like auto repairs, or buying a new car.
+			</dd>
+			
+			<dt>Gift</dt>
+			<dd>
+				This category is intended for any money spent on gifts for others on special occasions, like
+				birthdays.
+			</dd>
+			
+			<dt>Profits</dt>
+			<dd>
+				This category differs from "Salary", because "Salary" is intended for a constant cash flow, whereas 
+				"Profits" are intended for unexpected incomes. For example, you may sell candy as a secondary job.
+				Incomes from selling candy would go under "Profits", rather than "Salary".
+			</dd>
+		</dl>
+		<p>
+			Note that you can also type your own categories, by simply typing in the box labeled "Category".
+			The categories mentioned above are predefined, and can be accessed by clicking the arrow to the right
+			of the box labeled "Category".
+		</p>
+		<img src="catexp.png" />
+	</div>
+	</div>
+</body>
+</html>
